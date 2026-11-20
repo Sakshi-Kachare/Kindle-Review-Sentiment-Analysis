@@ -1,14 +1,14 @@
-\## 📚 Amazon Kindle Book Reviews Sentiment Analysis (NLP \& ML)
+## 📚 Amazon Kindle Book Reviews Sentiment Analysis (NLP \& ML)
 
 
 
-\## 📌 Project Overview
+## 📌 Project Overview
 
 This project focuses on performing \*\*Sentiment Analysis\*\* on Amazon Kindle Store book reviews using Natural Language Processing (NLP) and Machine Learning techniques. By analyzing customer review text (`reviewText`) and product ratings (`rating`), the model classifies reviews into \*\*Positive\*\* or \*\*Negative\*\* sentiments, helping understand reader feedback and automate review classification.
 
 
 
-\## 🎯 Project Objectives
+## 🎯 Project Objectives
 
 \- Clean and preprocess raw text reviews using NLP techniques (lowercasing, regex cleaning, stopword removal, HTML/URL stripping, and lemmatization).
 
@@ -22,7 +22,7 @@ This project focuses on performing \*\*Sentiment Analysis\*\* on Amazon Kindle S
 
 
 
-\## 🛠️ Technologies \& Libraries Used
+## 🛠️ Technologies \& Libraries Used
 
 \- Python
 
@@ -40,7 +40,7 @@ This project focuses on performing \*\*Sentiment Analysis\*\* on Amazon Kindle S
 
 
 
-\## 📂 Dataset Information
+## 📂 Dataset Information
 
 The dataset (`all\_kindle\_review.csv`) is a subset of the Amazon Kindle Store 5-core product reviews dataset containing \*\*12,000 records\*\* and \*\*11 columns\*\*, from which the primary columns used for modeling are:
 
@@ -58,7 +58,7 @@ The dataset (`all\_kindle\_review.csv`) is a subset of the Amazon Kindle Store 5
 
 
 
-\## 🧹 Text Preprocessing \& Feature Engineering
+## 🧹 Text Preprocessing \& Feature Engineering
 
 1\. \*\*Target Binarization:\*\* Mapped ratings `1` and `2` to `0` (Negative), and ratings `3`, `4`, and `5` to `1` (Positive).
 
@@ -84,7 +84,7 @@ The dataset (`all\_kindle\_review.csv`) is a subset of the Amazon Kindle Store 5
 
 
 
-\## 🤖 Model Training \& Evaluation
+## 🤖 Model Training \& Evaluation
 
 The dataset was split into \*\*80% Training (9,600 reviews)\*\* and \*\*20% Testing (2,400 reviews)\*\* sets, and evaluated using \*\*Gaussian Naive Bayes (`GaussianNB`)\*\*:
 
@@ -104,7 +104,7 @@ The dataset was split into \*\*80% Training (9,600 reviews)\*\* and \*\*20% Test
 
 
 
-\## ⚙️ How to Run This Project
+## ⚙️ How to Run This Project
 
 1\. Install Python and Jupyter Notebook.
 
@@ -118,7 +118,7 @@ The dataset was split into \*\*80% Training (9,600 reviews)\*\* and \*\*20% Test
 
 
 
-\## 📁 Project Structure
+## 📁 Project Structure
 
 
 
@@ -133,25 +133,12 @@ Kindle-Review-Sentiment-Analysis/
 └── README.md
 
 
-
-
-
 Email:sakshikachare444@gmail.com
-
-
 
 GitHub: https://github.com/Sakshi-Kachare
 
 
-
-
-
-
-
 \---
-
-
-
 
 
 ⭐ This project demonstrates an end-to-end NLP \& Machine Learning pipeline including Text Cleaning, Lemmatization, BoW/TF-IDF Vectorization, and Sentiment Classification.
